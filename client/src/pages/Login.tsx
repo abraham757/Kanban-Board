@@ -1,7 +1,7 @@
 import { useState, FormEvent, ChangeEvent } from "react";
 
 import Auth from '../utils/auth';
-import { login } from "../api/authAPI";
+import  login  from "../api/authAPI";
 
 const Login = () => {
   const [loginData, setLoginData] = useState({
